@@ -40,3 +40,7 @@
 .read-the-docs {
   color: #888;
 }
+.contenedor-mangas{
+  display: flex;
+  justify-content: space-evenly;
+}

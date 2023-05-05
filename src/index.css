@@ -1,11 +1,3 @@
-.header{
-  margin: 0;
-  padding: 0;
-}
-.header ul {
-  list-style: none;
-  display: flex;
-}
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

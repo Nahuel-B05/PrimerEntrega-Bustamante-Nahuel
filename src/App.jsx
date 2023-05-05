@@ -3,6 +3,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Item from "./item/item"
+import NavBar from "./NavBar/NavBar"
 import './App.css'
 
 function App() {
@@ -17,28 +18,23 @@ function App() {
   }
   return (
     <>
-      <div className="header">
-        <ul>
-          <li><a href="#">Inicio</a></li>
-          <li><a href="#">Biblioteca</a></li>
-          <li><a href="#">Figuras</a></li>
-          <li><a href="#">About Us</a></li>
-        </ul>
-      </div>
-      <div>
-        <Button label="ADD TO CART" 
+      <NavBar></NavBar>
+      <h1>Bienvenido a BlackCat</h1>
+      <h2>Tu tienda de Manga y Figuras Online</h2>
+      <div className="contenedor-mangas">
+        {/* <Button label="ADD TO CART" 
                 color="#fd7014"
                 onClick={clickearAdd}/>
         <Button color="green" 
                 label ="Confirmar Compra"
-                onClick={clickearConfirmar} />
-      </div>
-      <h1>Vite + React</h1>
+                onClick={clickearConfirmar} /> */}
       <Item/>
+      <Item/>
+      <Item/>
+      <Item/>
+      </div>
       
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      
     </>
   )
 }
